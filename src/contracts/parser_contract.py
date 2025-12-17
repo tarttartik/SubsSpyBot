@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from models.subscriber import Subscriber
+from ..models.subscriber import Subscriber
 
 
 class ParserContract(ABC):

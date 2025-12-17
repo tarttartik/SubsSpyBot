@@ -1,8 +1,8 @@
 import json
 import logging
 from typing import List
-from contracts.file_generator_contract import FileGeneratorContract
-from models.subscriber import Subscriber
+from ..contracts.file_generator_contract import FileGeneratorContract
+from ..models.subscriber import Subscriber
 
 class JsonFileGenerator(FileGeneratorContract):
     """ Generates JSON output from a list of Subscriber objects."""

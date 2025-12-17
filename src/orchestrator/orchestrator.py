@@ -2,9 +2,9 @@
 
 from typing import List
 
-from contracts.file_generator_contract import FileGeneratorContract
-from contracts.parser_contract import ParserContract
-from models.subscriber import Subscriber
+from ..contracts.file_generator_contract import FileGeneratorContract
+from ..contracts.parser_contract import ParserContract
+from ..models.subscriber import Subscriber
 
 
 class Orchestrator:

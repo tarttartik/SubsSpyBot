@@ -5,8 +5,8 @@ from datetime import datetime
 import re  
 import logging
 
-from contracts.parser_contract import ParserContract
-from models.subscriber import Subscriber
+from ..contracts.parser_contract import ParserContract
+from ..models.subscriber import Subscriber
 
 class TelegramParser(ParserContract):
     """Parses a Telegram export JSON file and extracts subscriber information."""
