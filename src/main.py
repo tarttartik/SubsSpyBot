@@ -1,9 +1,9 @@
 import logging
 import argparse  
 
-from implementation.telegram_parser import TelegramParser
-from implementation.file_generator import JsonFileGenerator
-from orchestrator.orchestrator import Orchestrator
+from .implementation.telegram_parser import TelegramParser
+from .implementation.file_generator import JsonFileGenerator
+from .orchestrator.orchestrator import Orchestrator
 
 """Logging to file 'parser_errors.log'"""
 logging.basicConfig(
