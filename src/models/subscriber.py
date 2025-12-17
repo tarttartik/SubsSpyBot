@@ -1,6 +1,7 @@
 """Data models used across the application."""
 
 from dataclasses import dataclass
+from datetime import datetime
 from typing import Optional
 
 
@@ -12,3 +13,4 @@ class Subscriber:
     username: Optional[str]
     name: Optional[str]
     is_deleted: bool = False
+    first_message_date: Optional[datetime] = None  

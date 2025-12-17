@@ -1,1 +1,10 @@
 /.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs and outputs
+*.log
+output_*.json
+src/data/
