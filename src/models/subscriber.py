@@ -1,14 +1,11 @@
-"""Data models used across the application."""
-
 from dataclasses import dataclass
+from datetime import datetime
 from typing import Optional
 
 
 @dataclass
 class Subscriber:
-    """Represents a subscriber record parsed from the input source."""
-
-    user_id: Optional[str]
+    user_id: str
     username: Optional[str]
-    name: Optional[str]
     is_deleted: bool = False
+    first_message_date: Optional[datetime] = None
