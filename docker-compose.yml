@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    container_name: subsspy-bot
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "src/bot/main.py"]
